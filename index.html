@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Projekt MovieDB</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Movies for You</h1>
+        <p>The best MovieDB</p>
+    </div>
+    <section>
+        <form onsubmit="return false">
+            <div>
+                <input type="search" name="inputSearch" id="inputSearchId">
+                <label for="inputSearchId"></label>
+                <button onclick="searchFun()">Search</button>
+            </div>
+    
+            <div>
+                <button onclick="aufsteigend()">YEAR UP</button>
+                <button onclick="absteigend()">YEAR DOWN</button>
+                <button onclick="bestRate()">BEST RATE</button>
+            </div>
+    </section>
+
+    <section>
+    <div class="grid">
+    </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
